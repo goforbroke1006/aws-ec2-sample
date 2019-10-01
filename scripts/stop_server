@@ -1,0 +1,7 @@
+#!/bin/bash
+isExistApp=`pgrep aws-ec2-sample`
+if [[ -n  ${isExistApp} ]]; then
+#    service httpd stop
+    pkill aws-ec2-sample
+fi
+

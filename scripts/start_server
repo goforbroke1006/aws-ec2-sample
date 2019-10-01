@@ -1,0 +1,3 @@
+#!/bin/bash
+#service httpd start
+aws-ec2-sample &
